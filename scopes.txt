@@ -1,0 +1,14 @@
+difference between global, functional and block scope
+scopes defines the boundary where we can access the variables and functions defined.
+global variables are accessible everywhere in our file . 
+eg. let a = 22; 
+var b = 44; ... this is written in global scope .
+variables declared inside function are accessible only in that particular function and not outside of it, known as functional scope .
+variables declared in curly braces {}, accessible only in those braces and not ouside of it , known as block scope .
+
+diff. between var, let and const
+variables written by using var is global as well as functional scope. Var variables can be used again and again.
+let and const ...block scope , let cannot be declared multiple times like var .
+const variables have fixed value .
+
+hoisting - a feature in which variable and function declaration move to top automatically .
